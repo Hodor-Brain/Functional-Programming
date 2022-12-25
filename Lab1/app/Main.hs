@@ -32,7 +32,7 @@ main = do
   putStrLn $ "First Address: " ++ show firstAddress
   secondAddress <- getAddress conn 2
   putStrLn $ "Second Address: " ++ show secondAddress
-  updatedSecond <- updateAddress conn 2 "Another Street" "Another City"
+  updatedSecond <- updateAddress conn 2 "Another Street1" "Another City1"
   putStrLn $ "Updated Address: " ++ show updatedSecond
   secondAddress <- getAddress conn 2
   putStrLn $ "Second Address: " ++ show secondAddress
